@@ -1,0 +1,21 @@
+Primary 1 #DBADA1
+Primary 2 #C99188
+Primary 3 #C74D3C
+Primary 4 #9F4336
+
+Secondary 1 #98B68E
+Secondary 2 #7AA874
+Secondary 3 #486044
+Secondary 4 #31432E
+
+Accent 1 #68DEDE
+Accent 2 #00B4B5
+Accent 3 #00658D
+Accent 4 #042769
+
+Greyscale 100 #F4E0DA
+Greyscale 300 #CCB9B3
+Greyscale 500 #AC9D98
+Greyscale 700 #615957
+Greyscale 900 #242120
+

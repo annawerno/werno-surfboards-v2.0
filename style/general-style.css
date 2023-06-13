@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+  background-color: #f4e0da;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.link {
+  text-decoration: none;
+  padding: 1.5rem 3rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #f4e0da;
+  text-transform: uppercase;
+  background-color: #9f4336;
+  box-shadow: 7px 13px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+li {
+  list-style: none;
+}
+
+h1,
+h2 {
+  font-family: "Yeseva One", cursive;
+}
+
+/* HEADER  */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 8rem;
+}
+
+/* FOOTER  */
+footer {
+  margin-top: 30px;
+  padding: 2rem 0;
+  border-top: #9f4336 solid 3px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-links {
+  display: flex;
+}
+
+.footer-link {
+  padding: 0.5rem 1.5rem;
+}
+
+.footer-link a {
+  text-decoration: none;
+  color: #9f4336;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.footer-newsletter {
+  color: #042769;
+  font-size: 2.4rem;
+  width: 43.4rem;
+}
+
+.footer-newsletter p {
+  padding-bottom: 1rem;
+}
+
+input {
+  border-radius: 0.8rem;
+  font-family: inherit;
+  padding: 0.5rem 1rem;
+  background-color: #f4e0da;
+  border: rgba(122, 168, 116, 0.5) solid 0.5px;
+  justify-self: center;
+}
+
+input::placeholder {
+  color: #7aa874;
+  font-size: 1.6rem;
+}
+
+input:first-child {
+  width: 26rem;
+}
+
+.cta {
+  display: flex;
+  gap: 1rem;
+}
+
+.cta-submit {
+  background-color: #7aa874;
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding: 0.8rem 1.5rem;
+  flex-shrink: 1;
+  cursor: pointer;
+}
+
+.footer-right {
+  flex-direction: column;
+  font-size: 1.6rem;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.social-media-links {
+  font-size: 3rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.social-media-links ion-icon {
+  color: #9f4336;
+}
